@@ -1,8 +1,8 @@
-package com.persist.report.rest;
+package com.persist.reports.rest;
 
-import com.persist.report.dto.PdfDTO;
-import com.persist.report.rest.commons.ApiConst;
-import com.persist.report.service.PdfService;
+import com.persist.reports.dto.PdfDTO;
+import com.persist.reports.rest.commons.ApiConst;
+import com.persist.reports.service.PdfService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;

@@ -1,4 +1,4 @@
-package com.persist.report.dto;
+package com.persist.reports.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,6 +1,6 @@
-package com.persist.report.rest;
+package com.persist.reports.rest;
 
-import com.persist.report.rest.commons.ApiConst;
+import com.persist.reports.rest.commons.ApiConst;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;

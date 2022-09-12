@@ -1,11 +1,11 @@
-package com.persist.report.service;
+package com.persist.reports.service;
 
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.PageSize;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.itextpdf.tool.xml.XMLWorkerHelper;
-import com.persist.report.dto.PdfDTO;
+import com.persist.reports.dto.PdfDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

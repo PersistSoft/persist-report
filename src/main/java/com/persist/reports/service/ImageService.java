@@ -1,4 +1,4 @@
-package com.persist.report.service;
+package com.persist.reports.service;
 
 import org.springframework.stereotype.Service;
 

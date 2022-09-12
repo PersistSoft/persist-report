@@ -1,4 +1,4 @@
-package com.persist.report.rest.commons;
+package com.persist.reports.rest.commons;
 
 public class ApiConst {
     public static final String API_V1 = "v1";
