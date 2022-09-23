@@ -78,7 +78,7 @@ public class PdfService {
 
     private String getHeader(String name){
         return String.format("<p align='left'>" +
-                "<img width='300' src='http://localhost:8082/api-report/v1/images/%s' alt='%s'/>" +
+                "<img height='60px' style='object-fit: contain;' src='http://localhost:8082/api-report/v1/images/%s' alt='%s'/>" +
                 "</p>", name, name);
     }
 
