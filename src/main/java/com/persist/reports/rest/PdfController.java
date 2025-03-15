@@ -19,6 +19,7 @@ public class PdfController {
 
     @PostMapping(ApiConst.API_PDF)
     ResponseEntity<byte[]> createPdf(@RequestBody PdfDTO pdfDTO){
+        log.info("Data of pdf ");
         byte[] bis = pdfService.createPdf(pdfDTO);
 
         return ResponseEntity.ok().contentType(MediaType.APPLICATION_PDF)

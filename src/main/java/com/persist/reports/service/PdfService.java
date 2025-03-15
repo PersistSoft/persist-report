@@ -26,6 +26,7 @@ public class PdfService {
      * @return
      */
     public byte[] createPdf (PdfDTO pdfDTO){
+        log.info("PdfService.createPdf ");
         try {
             Document document = new Document(PageSize.A4);
             document.setMargins(45, 45, 50, 50);
